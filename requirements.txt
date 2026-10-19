@@ -1,0 +1,14 @@
+streamlit>=1.37
+fastapi>=0.111
+uvicorn[standard]>=0.30
+httpx>=0.27
+pandas>=2.2
+scikit-learn>=1.5
+plotly>=5.23
+joblib>=1.4
+sqlalchemy>=2.0
+bcrypt>=4.1
+geopy>=2.4
+requests>=2.32
+folium>=0.17
+streamlit-folium>=0.22

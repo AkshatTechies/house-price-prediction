@@ -1,0 +1,26 @@
+{
+  "selected_model": "Extra Trees",
+  "selection_rule": "Highest hold-out R\u00b2; lower MAE breaks ties.",
+  "test_split": 0.2,
+  "rows": 360,
+  "features": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "location",
+    "age_years",
+    "location_score"
+  ],
+  "metrics": {
+    "Random Forest": {
+      "r2": 0.9879,
+      "mae": 1131451.02,
+      "rmse": 1386945.47
+    },
+    "Extra Trees": {
+      "r2": 0.9898,
+      "mae": 1013568.06,
+      "rmse": 1272435.77
+    }
+  }
+}
